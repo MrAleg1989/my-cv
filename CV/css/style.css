@@ -1,0 +1,69 @@
+html {
+    font-family: Roboto, sans-serif;
+}
+
+* {
+    color: #333333;
+
+}
+
+h1 {
+    color: rgb(12, 12, 138);
+    margin-bottom: 0;
+}
+
+h2 {
+    color: #333333;
+    font-size: 1em;
+    margin-top: 0;
+    margin-bottom: 1em;
+
+}
+
+h3 {
+    color: blue;
+}
+
+a {
+    color: blue;
+
+}
+
+.cv-container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+.contacts {
+    margin-bottom: 2em;
+}
+.contact {
+    display: flex;
+    min-width: 90px;
+    
+}
+
+.experience {
+    display: flex;
+    margin-bottom: 2em;
+   
+    
+}
+
+.experience-date {
+    width: 200px;
+    font-weight: lighter;
+    margin-right: 10px;
+}
+
+.experience-company {
+    font-weight: bold;
+
+}
+
+.experience-name {
+    font-weight: lighter;
+}
+
+.footer {
+    text-align: center;
+}
