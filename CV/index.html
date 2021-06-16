@@ -5,36 +5,40 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/CV/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <title>My CV</title>
 </head>
-<body>
+<body class="body">
     <div class="cv-container">
-        <Header>
-            <h1>Portofolio</h1>
+        <Header class="block header">
+            <h2 class="text-secondary">Portofolio</h1>
             <nav>
-                <ul>
-                    <li><a href="#skills">Skills</a></li>
-                    <li><a href="#experience">Experience</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                <ul class="nav">
+                    <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                    <li class="nav-item"><a href="#experience" class="nav-link">Experience</a></li>
+                    <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
                 </ul>
             </nav>
         </Header>
-            <section>
-                <h1>Oleg Ialama</h1>
-                <h2>Web Developer</h2>
-                <img src="/CV/img/avatarcv.png" alt="avatar" width="150" height="150">
-
-                <div class="contacts">
-                    <div class="contact">
-                        <div class="description">
-                            Oleg Ialama. Date of Birth 16/02/1989 City: Chisinau. Education 2008 - 2010 
-                            College of Microelectronics and Computers Engineering(Computer technologies
-                        </div>
+            <section class="block about-me">
+                <div class="card" style="width: 100%">
+                    <img class="card-img-top user-photo" style="width: 100px; margin: 15px" src="/CV/img/avatarcv.png" alt="user-photo" />
+                    <div class="card-body">
+                      <h5 class="card-title">Oleg Ialama</h5>
+                      <p class="card-text">Web Developer</p>
+                      <p class="card-text">
+                        Oleg Ialama. Date of Birth 16/02/1989 City: Chisinau. Education 2008 - 2010 
+                        College of Microelectronics and Computers Engineering(Computer technologies
+                      </p>
+                      <a href="#" class="btn btn-outline-primary"><i class="fab fa-linkedin-in"></i></a>
+                      <a href="#" class="btn btn-outline-primary"><i class="fab fa-facebook-f"></i></a>
+                      <a href="#" class="btn btn-outline-primary"><i class="fab fa-vk"></i></a>
+                      
                     </div>
-                </div>
+                  </div>
             </section>
-            <section>
-                <h3 id="experience">Experience</h3>
+            <section class="block exp">
+                <h2 id="experience" class="text-secondary">Experience</h3>
                 <div class="experience">
                     <div class="experience-date">2010 - 2012</div>
                     <div class="experience-description">
@@ -76,29 +80,27 @@
                     </div>
                 </div>
             </section>
-
-            <section>
-                <h3 id="skills">Skills</h3>
+            <section class="block skills">
+                <h2 id="skills" class="text-secondary">Skills</h3>
                 <div>
                     Good knowledge of Html 5, Good knowledge of CSS3, React,JS - basic level, PHP, Lavarel, Bootstrap
                 </div>
             </section>
-            <section id="contact">
-                <h3>Contact</h3>
+            <section id="contact" class="block contanct">
+                <h2 class="text-secondary">Contact</h3>
                 <ul>
                     <li>Tel: <a href="tel: +373 79 344219">079344219</a></li>
                     <li>Email: oleg.yalam@gmail.com</li>
                     <li>Adress: Boulevard Mircea cel Batran </li>
-                    <li>Facebook: facebook.com</li>
                 </ul>
             </section>
         </main>
-        <footer class="cv">
-            <div class="footer">
-                Copyright &copy; 2021, Developmentaid
-            </div>
-        </footer>
     </div>
-    
+    <footer class="cv">
+        <div class="block footer bg-secondary">
+            Copyright &copy; 2021, Developmentaid
+        </div>
+    </footer>
+    <script src="https://kit.fontawesome.com/ad220117ff.js" crossorigin="anonymous"></script>
 </body>
 </html>

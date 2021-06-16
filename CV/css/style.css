@@ -2,36 +2,26 @@ html {
     font-family: Roboto, sans-serif;
 }
 
+.body {
+    background: #eaeaea;
+}
+
 * {
     color: #333333;
+    text-decoration: none;
+    list-style: none;
 
 }
 
-h1 {
+.mycolor{
     color: rgb(12, 12, 138);
-    margin-bottom: 0;
 }
 
-h2 {
-    color: #333333;
-    font-size: 1em;
-    margin-top: 0;
-    margin-bottom: 1em;
-
-}
-
-h3 {
-    color: blue;
-}
-
-a {
-    color: blue;
-
-}
 
 .cv-container {
     max-width: 900px;
     margin: 0 auto;
+    background-color: #fff;
 }
 .contacts {
     margin-bottom: 2em;
@@ -45,14 +35,30 @@ a {
 .experience {
     display: flex;
     margin-bottom: 2em;
-   
-    
+}
+
+
+.user-photo {
+    height: 100px;
+}
+
+.nav-link:hover{
+    background-color: #eaeaea;
+    border-radius: 5px;
 }
 
 .experience-date {
     width: 200px;
     font-weight: lighter;
     margin-right: 10px;
+}
+
+header h2 {
+    text-align: center;
+}
+
+.block {
+    padding: 20px;
 }
 
 .experience-company {
